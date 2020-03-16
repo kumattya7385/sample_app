@@ -5,6 +5,10 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
   def setup
     @user = users(:michael)
   end
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> basic-login
 
   test "login with invalid information" do
     get login_path
